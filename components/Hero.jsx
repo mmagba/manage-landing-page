@@ -11,7 +11,9 @@ const Hero = () => {
                     </h1>
                     <p className='text-darkGrayishBlue text-center md:text-left md:max-w-xs'>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.</p>
                     <div className="flex justify-center md:justify-start ">
-                        <button className='bg-brightRed text-white rounded-full pb-3 px-6 pt-2 hover:bg-brightRedLight'>Get Started</button>
+                        <button className='bg-brightRed text-white rounded-full pb-3 px-6 pt-2 hover:bg-brightRedLight drop-shadow-xl'>
+                            Get Started
+                        </button>
                     </div>
                 </div>
 

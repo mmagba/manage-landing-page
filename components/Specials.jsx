@@ -5,7 +5,7 @@ const Specials = () => {
                 className="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row md:gap-8 md:my-28"
             >
                 <div className="flex flex-col space-y-12 md:w-1/2">
-                    <h2 className="max-w-md text-4xl font-bold text-center md:text-left">
+                    <h2 className="max-w-md text-4xl font-bold text-center md:text-left text-darkBlue">
                         What's different about Manage?
                     </h2>
                     <p className="max-w-sm text-center text-darkGrayishBlue mx-auto md:mx-0 md:text-left">
@@ -24,7 +24,7 @@ const Specials = () => {
 
                         <div className="flex flex-row rounded-l-full bg-brightRedSupLight gap-3 md:bg-transparent">
                             <div className="bg-brightRed text-white rounded-full pb-3 px-6 pt-2 md:py-1">01</div>
-                            <div className="flex items-center font-bold text-darkBlue md:hidden">Track company-wide progress MOBILE</div>
+                            <div className="flex items-center font-bold text-darkBlue md:hidden">Track company-wide progress</div>
                         </div>
 
                         <div className="md:flex flex-col">

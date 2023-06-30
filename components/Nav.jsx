@@ -17,7 +17,9 @@ const Nav = () => {
                     <Link className='hover:text-darkGrayishBlue' href='/'>Community</Link>
                 </div>
 
-                <button className='bg-brightRed text-white rounded-full pb-3 px-6 pt-2 hover:bg-brightRedLight hidden md:block'>Get Started</button>
+                <button className='bg-brightRed text-white rounded-full pb-3 px-6 pt-2 hover:bg-brightRedLight hidden md:block drop-shadow-xl'>
+                    Get Started
+                </button>
             </div>
 
         </nav>
