@@ -1,4 +1,5 @@
 import CallToAction from '@/components/CallToAction'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Nav from '@/components/Nav'
 import Specials from '@/components/Specials'
@@ -12,6 +13,7 @@ export default function Home() {
       <Specials />
       <Testimonials />
       <CallToAction />
+      <Footer />
     </>
 
   )

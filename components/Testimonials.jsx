@@ -71,7 +71,7 @@ const Testimonials = () => {
                     <div className="flex items-center justify-center gap-2 mt-6">
                         {slidesArray.map((_, i) => (
                             <div key={i} className={`
-                                transition-all w-3 h-3 rounded-full border-brightRed border
+                                transition-all w-3 h-3 rounded-full border-brightRed border cursor-pointer
                                 ${mobileCurr === i ? "bg-brightRed" : ""}
                                 
                               `} onClick={() => changeMobileSlide(i)}></div>
