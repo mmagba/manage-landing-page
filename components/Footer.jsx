@@ -60,11 +60,11 @@ const Footer = () => {
 
                 <div className="flex flex-col items-center gap-12 md:flex-col-reverse">
                     <div className="flex gap-9 md:gap-4">
-                        <Image src='/icon-facebook.svg' width={35} height={35} alt='facebook logo' />
-                        <Image src='/icon-youtube.svg' width={35} height={35} alt='facebook logo' />
-                        <Image src='/icon-twitter.svg' width={35} height={35} alt='facebook logo' />
-                        <Image src='/icon-pinterest.svg' width={35} height={35} alt='facebook logo' />
-                        <Image src='/icon-instagram.svg' width={35} height={35} alt='facebook logo' />
+                        <Image src='/icon-facebook.svg' className='cursor-pointer' width={35} height={35} alt='facebook logo' />
+                        <Image src='/icon-youtube.svg' className='cursor-pointer' width={35} height={35} alt='youtube logo' />
+                        <Image src='/icon-twitter.svg' className='cursor-pointer' width={35} height={35} alt='twitter logo' />
+                        <Image src='/icon-pinterest.svg' className='cursor-pointer' width={35} height={35} alt='pinterest logo' />
+                        <Image src='/icon-instagram.svg' className='cursor-pointer' width={35} height={35} alt='instagram logo' />
                     </div>
                     <Image src='/logo-white.svg' width={140} height={140} alt='manage logo' />
                 </div>
