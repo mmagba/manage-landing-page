@@ -26,12 +26,12 @@ const Footer = () => {
             <div className="flex flex-col text-white justify-center items-center py-12 gap-12 md:flex-row-reverse md:justify-around md:gap-0">
 
                 <div className='flex flex-col gap-20 shrink'>
-                    <form className=' flex shrink items-start' onSubmit={submitHandler}>
+                    <form className=' flex shrink items-start px-1' onSubmit={submitHandler}>
                         <div className="flex flex-col items-center">
                             <input
                                 type="text"
                                 placeholder='Updates in your inbox...'
-                                className={`text-black rounded-full border-2 p-3 px-8 focus:outline-none ${warningMessage ? 'text-red-500 border-red-500' : 'text-black border-none'}`}
+                                className={`text-black rounded-full border-2 p-3 container px-8 focus:outline-none ${warningMessage ? 'text-red-500 border-red-500' : 'text-black border-none'}`}
                                 onChange={(e) => setEmailInput(e.target.value)}
                             />
                             {warningMessage && <p className='text-red-500'>Please insert a valid email</p>}
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col items-center gap-12 md:flex-col-reverse">
-                    <div className="flex gap-9 md:gap-4">
+                    <div className="flex gap-9 md:gap-4 px-1">
                         <Image src='/icon-facebook.svg' className='cursor-pointer' width={35} height={35} alt='facebook logo' />
                         <Image src='/icon-youtube.svg' className='cursor-pointer' width={35} height={35} alt='youtube logo' />
                         <Image src='/icon-twitter.svg' className='cursor-pointer' width={35} height={35} alt='twitter logo' />
